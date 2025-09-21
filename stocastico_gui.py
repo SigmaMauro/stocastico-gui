@@ -71,6 +71,8 @@ def kelly_fraction(p: float, b: float) -> float:
     f = p - (1.0 - p) / b
     return max(0.0, min(1.0, float(f)))
 
+def prova():
+    print("prova")
 
 def kelly_half(f: float) -> float:
     "Mezzo-Kelly: più stabile in pratica."
